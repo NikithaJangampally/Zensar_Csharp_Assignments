@@ -16,7 +16,7 @@ For the UnderGrad class, if the grade is above 70.0, then isPassed returns true,
 namespace Student_UG { 
 
    
-    abstract class Studentabs
+    abstract class Abstract_Student
     {
         public string Name = "Nikitha";
         public int StudentId = 840;
@@ -25,12 +25,12 @@ namespace Student_UG {
 
     }
 
-    class UGraduate : Studentabs
+    class UGraduate : Abstract_Student
     {
 
         public override bool Ispassed(float grade)
         {
-            Console.Write("UnderGraduate:  ");
+            Console.Write("UnderGraduation:  ");
             if (grade > 70.0f)
             {
                 return true;
@@ -45,11 +45,11 @@ namespace Student_UG {
 
     }
 
-    class Graduate : Studentabs
+    class Graduate : Abstract_Student
     {
         public override bool Ispassed(float grade)
         {
-            Console.Write("Graduate:  ");
+            Console.Write("Graduation:  ");
             if (grade > 80.0f)
             {
                 return true;
@@ -66,26 +66,26 @@ namespace Student_UG {
     {
         public static void Main(string[] args)
         {
-            bool pass;
-            UGraduate u = new UGraduate();
-            Console.WriteLine("Student Name is: " + u.Name);
-            Console.WriteLine("Student Idno is: " + u.StudentId);
-            pass = u.Ispassed(80.0f);
-            if (pass)
+            bool p;
+            UGraduate ug = new UGraduate();
+            Console.WriteLine("Student Name is: " + ug.Name);
+            Console.WriteLine("Student Idno is: " + ug.StudentId);
+            p = ug.Ispassed(67.3f);
+            if (p)
             {
-                Console.WriteLine("The Student is passed in UnderGraduate");
+                Console.WriteLine("In Undergraduation, the Student has Passed");
             }
             else
-                Console.WriteLine("The Student is Failed in UnderGraduate");
+                Console.WriteLine("In Undergraduation, the Student has Failed");
 
-            Graduate g = new Graduate();
-            pass = g.Ispassed(71.0f);
-            if (pass)
+            Graduate gr = new Graduate();
+            p = gr.Ispassed(87.2f);
+            if (p)
             {
-                Console.WriteLine("The Student is passed in Graduate");
+                Console.WriteLine("In Graduation, the Student has Passed ");
             }
             else
-                Console.WriteLine("The Student is Failed in Graduate");
+                Console.WriteLine("In Graduation, the Student has Failed ");
 
         }
 

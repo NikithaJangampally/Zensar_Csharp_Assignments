@@ -1,0 +1,8 @@
+D:\Assignment2\String Assignments\Strings\Strings\bin\Debug\Strings.exe.config
+D:\Assignment2\String Assignments\Strings\Strings\bin\Debug\Strings.exe
+D:\Assignment2\String Assignments\Strings\Strings\bin\Debug\Strings.pdb
+D:\Assignment2\String Assignments\Strings\Strings\obj\Debug\Strings.csproj.AssemblyReference.cache
+D:\Assignment2\String Assignments\Strings\Strings\obj\Debug\Strings.csproj.SuggestedBindingRedirects.cache
+D:\Assignment2\String Assignments\Strings\Strings\obj\Debug\Strings.csproj.CoreCompileInputs.cache
+D:\Assignment2\String Assignments\Strings\Strings\obj\Debug\Strings.exe
+D:\Assignment2\String Assignments\Strings\Strings\obj\Debug\Strings.pdb

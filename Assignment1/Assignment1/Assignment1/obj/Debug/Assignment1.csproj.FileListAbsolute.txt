@@ -1,0 +1,16 @@
+C:\Users\NJ65840\source\repos\Assignment1\Assignment1\Assignment1\bin\Debug\Assignment1.exe.config
+C:\Users\NJ65840\source\repos\Assignment1\Assignment1\Assignment1\bin\Debug\Assignment1.exe
+C:\Users\NJ65840\source\repos\Assignment1\Assignment1\Assignment1\bin\Debug\Assignment1.pdb
+C:\Users\NJ65840\source\repos\Assignment1\Assignment1\Assignment1\obj\Debug\Assignment1.csproj.AssemblyReference.cache
+C:\Users\NJ65840\source\repos\Assignment1\Assignment1\Assignment1\obj\Debug\Assignment1.csproj.SuggestedBindingRedirects.cache
+C:\Users\NJ65840\source\repos\Assignment1\Assignment1\Assignment1\obj\Debug\Assignment1.csproj.CoreCompileInputs.cache
+C:\Users\NJ65840\source\repos\Assignment1\Assignment1\Assignment1\obj\Debug\Assignment1.exe
+C:\Users\NJ65840\source\repos\Assignment1\Assignment1\Assignment1\obj\Debug\Assignment1.pdb
+D:\Assignment1\Assignment1\Assignment1\Assignment1\bin\Debug\Assignment1.exe.config
+D:\Assignment1\Assignment1\Assignment1\Assignment1\bin\Debug\Assignment1.exe
+D:\Assignment1\Assignment1\Assignment1\Assignment1\bin\Debug\Assignment1.pdb
+D:\Assignment1\Assignment1\Assignment1\Assignment1\obj\Debug\Assignment1.csproj.AssemblyReference.cache
+D:\Assignment1\Assignment1\Assignment1\Assignment1\obj\Debug\Assignment1.csproj.SuggestedBindingRedirects.cache
+D:\Assignment1\Assignment1\Assignment1\Assignment1\obj\Debug\Assignment1.csproj.CoreCompileInputs.cache
+D:\Assignment1\Assignment1\Assignment1\Assignment1\obj\Debug\Assignment1.exe
+D:\Assignment1\Assignment1\Assignment1\Assignment1\obj\Debug\Assignment1.pdb

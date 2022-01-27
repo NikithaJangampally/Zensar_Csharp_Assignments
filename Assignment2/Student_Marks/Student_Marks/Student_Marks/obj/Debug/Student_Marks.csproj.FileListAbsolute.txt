@@ -1,0 +1,7 @@
+D:\Assignment2\Student_Marks\Student_Marks\Student_Marks\bin\Debug\Student_Marks.exe.config
+D:\Assignment2\Student_Marks\Student_Marks\Student_Marks\bin\Debug\Student_Marks.exe
+D:\Assignment2\Student_Marks\Student_Marks\Student_Marks\bin\Debug\Student_Marks.pdb
+D:\Assignment2\Student_Marks\Student_Marks\Student_Marks\obj\Debug\Student_Marks.csproj.SuggestedBindingRedirects.cache
+D:\Assignment2\Student_Marks\Student_Marks\Student_Marks\obj\Debug\Student_Marks.csproj.CoreCompileInputs.cache
+D:\Assignment2\Student_Marks\Student_Marks\Student_Marks\obj\Debug\Student_Marks.exe
+D:\Assignment2\Student_Marks\Student_Marks\Student_Marks\obj\Debug\Student_Marks.pdb

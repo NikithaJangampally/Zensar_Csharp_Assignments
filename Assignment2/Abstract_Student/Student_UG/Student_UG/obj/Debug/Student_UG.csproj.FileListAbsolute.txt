@@ -1,0 +1,16 @@
+D:\Assignment2\Student_Abstraction\Student_UG\Student_UG\bin\Debug\Student_UG.exe.config
+D:\Assignment2\Student_Abstraction\Student_UG\Student_UG\bin\Debug\Student_UG.exe
+D:\Assignment2\Student_Abstraction\Student_UG\Student_UG\bin\Debug\Student_UG.pdb
+D:\Assignment2\Student_Abstraction\Student_UG\Student_UG\obj\Debug\Student_UG.csproj.AssemblyReference.cache
+D:\Assignment2\Student_Abstraction\Student_UG\Student_UG\obj\Debug\Student_UG.csproj.SuggestedBindingRedirects.cache
+D:\Assignment2\Student_Abstraction\Student_UG\Student_UG\obj\Debug\Student_UG.csproj.CoreCompileInputs.cache
+D:\Assignment2\Student_Abstraction\Student_UG\Student_UG\obj\Debug\Student_UG.exe
+D:\Assignment2\Student_Abstraction\Student_UG\Student_UG\obj\Debug\Student_UG.pdb
+D:\Assignment2\New folder\Student_UG\Student_UG\bin\Debug\Student_UG.exe.config
+D:\Assignment2\New folder\Student_UG\Student_UG\bin\Debug\Student_UG.exe
+D:\Assignment2\New folder\Student_UG\Student_UG\bin\Debug\Student_UG.pdb
+D:\Assignment2\New folder\Student_UG\Student_UG\obj\Debug\Student_UG.csproj.AssemblyReference.cache
+D:\Assignment2\New folder\Student_UG\Student_UG\obj\Debug\Student_UG.csproj.SuggestedBindingRedirects.cache
+D:\Assignment2\New folder\Student_UG\Student_UG\obj\Debug\Student_UG.csproj.CoreCompileInputs.cache
+D:\Assignment2\New folder\Student_UG\Student_UG\obj\Debug\Student_UG.exe
+D:\Assignment2\New folder\Student_UG\Student_UG\obj\Debug\Student_UG.pdb

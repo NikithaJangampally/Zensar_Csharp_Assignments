@@ -1,0 +1,149 @@
+//Using same database of SQlAssignment1 
+
+//Questions and Answers
+// 1. Retrieve a list of MANAGERS. 
+select EMPNO,ENAME from Employe 
+where EMPNO in (select MGR from Employe)
+Output:-
+7566	JONES
+7698	BLAKE
+7782	CLARK
+7788	SCOTT
+7839	KING
+7902	FORD
+
+
+// 2. Find out salary of both MILLER and SMITH. 
+select ENAME,SAL from Employe
+where ENAME = 'MILLER' or ENAME = 'SMITH'
+Output:-
+SMITH	800
+MILLER	1300
+
+
+// 3. Find out the names and salaries of all employees earning more than 1000 per month. 
+select ENAME,SAL from Employe
+where SAL > 1000
+Output:-
+ALLEN	1600
+WARD	1250
+JONES	2975
+MARTIN	1250
+BLAKE	2850
+CLARK	2450
+SCOTT	3000
+KING	5000
+TURNER	1500
+ADAMS	1100
+FORD	3000
+MILLER	1300
+
+
+// 4. Display the names and salaries of all employees except JAMES. 
+select ENAME,SAL from Employe
+where ENAME <> 'JAMES'
+Output:-
+SMITH	800
+ALLEN	1600
+WARD	1250
+JONES	2975
+MARTIN	1250
+BLAKE	2850
+CLARK	2450
+SCOTT	3000
+KING	5000
+TURNER	1500
+ADAMS	1100
+FORD	3000
+MILLER	1300
+
+
+// 5. Find out the details of employees whose names begin with ‘S’. 
+select * from Employe
+where ENAME like 'S%'
+Output:-
+7369	SMITH	CLERK	7902	1980-12-17	800	NULL	20
+7788	SCOTT	ANALYST	7566	1987-04-19	3000	NULL	20
+
+
+// 6. Find out the names of all employees that have ‘A’ anywhere in their name.
+select ENAME 'where Employess have  "A" Word in their Name.' from Employe 
+where ENAME like '%A%'
+Output:-
+ALLEN
+WARD
+MARTIN
+BLAKE
+CLARK
+ADAMS
+JAMES
+
+
+// 7. Find out the names of all employees that have ‘L’ as their third character in their name. 
+select ENAME 'where Employees have "L" as their Third Character.' from Employe
+where ENAME like '__L%'
+Output:-
+ALLEN
+MILLER
+
+
+// 8. Find out the names of the employees whose name begin with ‘A’ or ‘M’. 
+select * from Employe
+where ENAME like 'A%' or ENAME like 'M%'
+Output:-
+ALLEN
+MARTIN
+ADAMS
+MILLER
+
+
+// 9. Compute yearly salary of SMITH. 
+select ENAME,SAL,(SAL*12)'Annual Salary' from Employe
+where ENAME = 'SMITH'
+Output:-
+SMITH	800	9600
+
+
+// 10. Compute daily salary of JONES. 
+select ENAME,SAL,(SAL/30)'Daily Salary' from Employe
+where ENAME = 'Jones'
+Output:-
+JONES	2975	99.1666666666667
+
+
+// 11. Calculate the total monthly salary of all employees. 
+select sum(SAL)'Total Monthly Salary of All Employee' from Employe
+Output:-
+29025
+
+
+// 12. Print the average annual salary. 
+select  avg(SAL*12) 'Average Annual Salary' from Employe
+Output:-
+24878.5714285714
+
+
+// 13. Select the name, job, salary, department number of all employees except SALESMAN from department number 30. 
+select ENAME,JOB,SAL,DEPTNO from Employe
+where JOB <> 'SALESMAN' and DEPTNO = 30
+Output:-
+BLAKE	MANAGER	2850	30
+JAMES	CLERK	950	30
+
+
+// 14. List unique departments of the EMP table.
+select distinct(DEPTNO) 'Unique Department ID in Employee Table.' from Employe
+Output:-
+10
+20
+30
+
+
+// 15. List the name and salary of employees who earn more than 1500 and are in department 10 or 30. Label the columns Employee and Monthly Salary respectively.
+select ENAME 'Employee',SAL 'Monthly Salary',DEPTNO from Employe
+where SAL > 1500 and (DEPTNO = 10 or DEPTNO = 30)
+Output:-
+ALLEN	1600	30
+BLAKE	2850	30
+CLARK	2450	10
+KING	5000	10

@@ -1,6 +1,7 @@
-//Using same database of SQlAssignment1 
+//Using same database of SQLAssignment1 
 
-//Questions and Answers
+//Questions and Answers :
+
 // 1. Retrieve a list of MANAGERS. 
 select EMPNO,ENAME from Employe 
 where EMPNO in (select MGR from Employe)

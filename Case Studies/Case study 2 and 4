@@ -37,7 +37,7 @@ namespace CaseStudy
         static SqlConnection getConnection()
         {
 
-            con = new SqlConnection("data source= LAPTOP-TICSCMGM ;initial catalog= casestudy;integrated security=true");
+            con = new SqlConnection("data source= DESKTOP-2RIGPF3 ;initial catalog= CaseStudy;integrated security=true");
             con.Open();
             return con;
 
@@ -116,7 +116,7 @@ namespace CaseStudy
         }
         public void Available_Courses()
         {
-            
+
             con = getConnection();
             cmd6 = new SqlCommand("Select *from Course", con);
             int res6 = cmd6.ExecuteNonQuery();
@@ -317,9 +317,6 @@ namespace CaseStudy
             {
                 Console.WriteLine("Course Doesn't Exist...........!", se);
             }
-
-
         }
-
-
     }
+}

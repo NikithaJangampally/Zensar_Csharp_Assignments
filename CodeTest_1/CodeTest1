@@ -24,23 +24,23 @@ namespace EmployeeManagement
     static void Main(string[] args)
     {
         con = getConnection();
-        string name, type;
-        double sal;
+        string ename, etype;
+        double esal;
         Console.WriteLine("Enter the empmloyee details: ");
         name = Console.ReadLine();
-        sal = Convert.ToDouble(Console.ReadLine());
-        type = Console.ReadLine();
+        esal = Convert.ToDouble(Console.ReadLine());
+        etype = Console.ReadLine();
 
         cmd = new SqlCommand("InsertEmployee", con);
         cmd.CommandType = CommandType.StoredProcedure;
 
         SqlParameter param;
-        param = cmd.Parameters.Add("@name", SqlDbType.NVarChar, 50);
-        param.Value = name;
-        param = cmd.Parameters.Add("@sal", SqlDbType.Money);
-        param.Value = sal;
-        param = cmd.Parameters.Add("@type", SqlDbType.NVarChar, 1);
-        param.Value = type;
+        param = cmd.Parameters.Add("@empname", SqlDbType.NVarChar, 50);
+        param.Value = ename;
+        param = cmd.Parameters.Add("@empsal", SqlDbType.Money);
+        param.Value = esal;
+        param = cmd.Parameters.Add("@emptype", SqlDbType.NVarChar, 1);
+        param.Value = etype;
 
         int NoOfRows = cmd.ExecuteNonQuery();
         con.Close();
